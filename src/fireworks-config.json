@@ -1,0 +1,51 @@
+{
+    "hue": {
+        "min": 0,
+        "max": 345
+    },
+    "delay": {
+        "min": 15,
+        "max": 15
+    },
+    "rocketsPoint": 50,
+    "speed": 10,
+    "acceleration": 1.2,
+    "friction": 0.96,
+    "gravity": 1,
+    "particles": 90,
+    "trace": 3,
+    "explosion": 6,
+    "autoresize": true,
+    "brightness": {
+        "min": 50,
+        "max": 80,
+        "decay": {
+            "min": 0.015,
+            "max": 0.03
+        }
+    },
+    "boundaries": {
+        "x": 50,
+        "y": 50,
+        "width": 1366,
+        "height": 568,
+        "visible": false
+    },
+    "sound": {
+        "enable": true,
+        "files": [
+            "https://fireworks.js.org/sounds/explosion0.mp3",
+            "https://fireworks.js.org/sounds/explosion1.mp3",
+            "https://fireworks.js.org/sounds/explosion2.mp3"
+        ],
+        "volume": {
+            "min": 50,
+            "max": 100
+        }
+    },
+    "mouse": {
+        "click": true,
+        "move": false,
+        "max": 3
+    }
+}
